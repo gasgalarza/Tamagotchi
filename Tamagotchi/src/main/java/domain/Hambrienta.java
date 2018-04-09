@@ -5,6 +5,7 @@ public class Hambrienta extends Estado {
 		unaMascota.cambiarEstado(new Contenta());
 		
 	}
+	@Override
 	public boolean podesJugar(){
 		return false;
 	}

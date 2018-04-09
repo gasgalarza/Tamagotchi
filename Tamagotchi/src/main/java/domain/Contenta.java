@@ -5,6 +5,7 @@ public class Contenta extends Estado{
 public void come(Mascota unaMascota){
 	unaMascota.incrementarFelicidad(1);
 }
+@Override
 public void juga(Mascota unaMascota){
 	if(cantidadVecesQueJugo() > 5){
 		unaMascota.cambiarEstado(new Hambrienta());

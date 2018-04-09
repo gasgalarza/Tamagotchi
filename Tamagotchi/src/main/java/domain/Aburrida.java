@@ -14,6 +14,7 @@ public long minutosAburrida(){
 	long diferencia = Duration.between(horaInicioAburrimiento,horaActual).toMinutes();
 	return diferencia;
 }
+@Override
 public void juga(Mascota unaMascota){
 	unaMascota.cambiarEstado(new Contenta());
 	
